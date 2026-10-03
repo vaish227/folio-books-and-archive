@@ -1,0 +1,6 @@
+{
+  "name": "FOLIO Books & Archive",
+  "description": "An intimate, scholarly publisher and independent monograph archive featuring tactile editions, architectural essays, and curated first pressings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
