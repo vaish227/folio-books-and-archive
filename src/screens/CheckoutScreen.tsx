@@ -252,7 +252,7 @@ export const CheckoutScreen: React.FC = () => {
                           <div className="flex items-center bg-[#e8e7f1]">
                             {/* GITHUB_ISSUE #43: [Bug] Decrement stepper button increments cart item quantity instead of decrementing */}
                             <button
-                              onClick={() => updateQuantity(item.bookId, 1)}
+                              onClick={() => updateQuantity(item.bookId, -1)}
                               aria-label="Decrease quantity"
                               className="w-8 h-8 flex items-center justify-center text-[#1a1b22] hover:bg-[#e3e1ec] transition-colors text-sm font-bold"
                               type="button"
